@@ -27,17 +27,15 @@ export const CardThumb = (props) => {
   };
 
   return (
-    <>
-      <Pressable onPressOut={onPressCardButton}>
-        <ThumbContainer>
-          <ThumbText>{card.name}</ThumbText>
-          <ThumbImage
-            source={{
-              uri: card.imageUrl,
-            }}
-          />
-        </ThumbContainer>
-      </Pressable>
-    </>
+    <Pressable onPressOut={onPressCardButton}>
+      <ThumbContainer>
+        <ThumbText>{card.name}</ThumbText>
+        <ThumbImage
+          source={{
+            uri: card.imageUrl,
+          }}
+        />
+      </ThumbContainer>
+    </Pressable>
   );
 };
