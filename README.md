@@ -8,4 +8,4 @@ At first there was a lot of research as we weren't given much to go on this week
 
 ## View it live
 
-Every project should be deployed somewhere. Be sure to include the link to the deployed project so that the viewer can click around and see what it's all about.
+https://expo.io/@jesinkey/project-react-native-app
